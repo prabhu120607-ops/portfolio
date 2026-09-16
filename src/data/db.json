@@ -1,0 +1,403 @@
+{
+  "categories": [
+    {
+      "id": "women",
+      "name": "Women",
+      "slug": "women",
+      "image": "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?q=80&w=600"
+    },
+    {
+      "id": "men",
+      "name": "Men",
+      "slug": "men",
+      "image": "https://images.unsplash.com/photo-1488161628813-04466f872be2?q=80&w=600"
+    },
+    {
+      "id": "accessories",
+      "name": "Accessories",
+      "slug": "accessories",
+      "image": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?q=80&w=600"
+    }
+  ],
+  "brands": [
+    { "id": "1", "name": "AETHER" },
+    { "id": "2", "name": "SABLE" },
+    { "id": "3", "name": "VALE" },
+    { "id": "4", "name": "NOMAD" }
+  ],
+  "products": [
+    {
+      "id": "prod-1",
+      "name": "Oversized Cashmere Coat",
+      "slug": "oversized-cashmere-coat",
+      "sku": "COAT-CASH-01",
+      "description": "Crafted from double-faced cashmere wool blend, this long coat features an oversized, relaxed silhouette. Clean tailored details, dropped shoulders, notched lapels, and side welt pockets make it a timeless addition to your cold-weather wardrobe.",
+      "shortDescription": "Luxurious double-faced cashmere wool coat with a relaxed silhouette.",
+      "price": 14999,
+      "originalPrice": 18500,
+      "discountPercent": 19,
+      "categoryId": "women",
+      "brandId": "1",
+      "ratingsAverage": 4.9,
+      "status": "active",
+      "tags": ["premium", "coat", "winter", "outerwear", "cashmere", "wedding", "formal"],
+      "images": [
+        "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?q=80&w=800",
+        "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?q=80&w=800"
+      ],
+      "variants": [
+        { "id": "v1-1", "color": "Camel", "size": "S", "stock": 5 },
+        { "id": "v1-2", "color": "Camel", "size": "M", "stock": 8 },
+        { "id": "v1-3", "color": "Camel", "size": "L", "stock": 4 },
+        { "id": "v1-4", "color": "Charcoal", "size": "S", "stock": 6 },
+        { "id": "v1-5", "color": "Charcoal", "size": "M", "stock": 10 },
+        { "id": "v1-6", "color": "Charcoal", "size": "L", "stock": 3 }
+      ]
+    },
+    {
+      "id": "prod-2",
+      "name": "Tailored Silk Blazer",
+      "slug": "tailored-silk-blazer",
+      "sku": "BLZR-SILK-02",
+      "description": "Constructed from heavy mulberry silk crepe, this blazer features structured shoulders, a single-breasted closure, and a sleek modern cut. Fully lined in cupro, it provides a lustrous sheen and a sophisticated fluid drape.",
+      "shortDescription": "Single-breasted structured blazer crafted from pure mulberry silk.",
+      "price": 8999,
+      "originalPrice": 8999,
+      "discountPercent": 0,
+      "categoryId": "women",
+      "brandId": "2",
+      "ratingsAverage": 4.7,
+      "status": "active",
+      "tags": ["blazer", "formal", "office", "silk", "chic", "wedding"],
+      "images": [
+        "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=800",
+        "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=800"
+      ],
+      "variants": [
+        { "id": "v2-1", "color": "Ivory", "size": "XS", "stock": 3 },
+        { "id": "v2-2", "color": "Ivory", "size": "S", "stock": 6 },
+        { "id": "v2-3", "color": "Ivory", "size": "M", "stock": 5 },
+        { "id": "v2-4", "color": "Ivory", "size": "L", "stock": 2 },
+        { "id": "v2-5", "color": "Black", "size": "S", "stock": 4 },
+        { "id": "v2-6", "color": "Black", "size": "M", "stock": 7 }
+      ]
+    },
+    {
+      "id": "prod-3",
+      "name": "Heavyweight Wool Trouser",
+      "slug": "heavyweight-wool-trouser",
+      "sku": "TRSR-WOOL-03",
+      "description": "A classic wide-leg trouser cut from premium Italian wool flannel. Designed with a high-rise waist, sharp pressed creases, side pockets, and hook-and-bar closure. Designed for an elegant flow.",
+      "shortDescription": "Wide-leg pleated wool trousers with pressed creases.",
+      "price": 4999,
+      "originalPrice": 6200,
+      "discountPercent": 19,
+      "categoryId": "women",
+      "brandId": "2",
+      "ratingsAverage": 4.5,
+      "status": "active",
+      "tags": ["trouser", "wool", "casual", "smart", "office"],
+      "images": [
+        "https://images.unsplash.com/photo-1509631179647-0177331693ae?q=80&w=800",
+        "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?q=80&w=800"
+      ],
+      "variants": [
+        { "id": "v3-1", "color": "Oatmeal", "size": "S", "stock": 10 },
+        { "id": "v3-2", "color": "Oatmeal", "size": "M", "stock": 12 },
+        { "id": "v3-3", "color": "Oatmeal", "size": "L", "stock": 8 },
+        { "id": "v3-4", "color": "Black", "size": "S", "stock": 9 },
+        { "id": "v3-5", "color": "Black", "size": "M", "stock": 14 }
+      ]
+    },
+    {
+      "id": "prod-4",
+      "name": "Oversized Cotton Trench Coat",
+      "slug": "oversized-cotton-trench-coat",
+      "sku": "COAT-TRCH-04",
+      "description": "A contemporary reimagining of the classic trench, tailored from heavy water-repellent organic cotton gabardine. Features prominent epaulets, storm flaps, and a removable tie belt for adjusting the voluminous silhouette.",
+      "shortDescription": "Double-breasted trench coat in organic cotton gabardine.",
+      "price": 11999,
+      "originalPrice": 11999,
+      "discountPercent": 0,
+      "categoryId": "men",
+      "brandId": "1",
+      "ratingsAverage": 4.8,
+      "status": "active",
+      "tags": ["trench", "cotton", "outerwear", "rain", "men", "premium"],
+      "images": [
+        "https://images.unsplash.com/photo-1617137968427-85924c800a22?q=80&w=800",
+        "https://images.unsplash.com/photo-1507679799987-c73779587ccf?q=80&w=800"
+      ],
+      "variants": [
+        { "id": "v4-1", "color": "Khaki", "size": "S", "stock": 4 },
+        { "id": "v4-2", "color": "Khaki", "size": "M", "stock": 8 },
+        { "id": "v4-3", "color": "Khaki", "size": "L", "stock": 6 },
+        { "id": "v4-4", "color": "Khaki", "size": "XL", "stock": 3 },
+        { "id": "v4-5", "color": "Olive", "size": "M", "stock": 5 },
+        { "id": "v4-6", "color": "Olive", "size": "L", "stock": 5 }
+      ]
+    },
+    {
+      "id": "prod-5",
+      "name": "Minimalist Leather Backpack",
+      "slug": "minimalist-leather-backpack",
+      "sku": "BAG-LEATH-05",
+      "description": "Constructed from full-grain pebbled leather, this structured backpack has a clean, raw edges aesthetic. Featuring a dedicated 15-inch laptop sleeve, padded shoulder straps, and a concealed rear passport pocket.",
+      "shortDescription": "Full-grain pebbled leather backpack with clean, structured edges.",
+      "price": 7499,
+      "originalPrice": 9500,
+      "discountPercent": 21,
+      "categoryId": "accessories",
+      "brandId": "3",
+      "ratingsAverage": 4.6,
+      "status": "active",
+      "tags": ["bag", "leather", "backpack", "minimal", "accessories"],
+      "images": [
+        "https://images.unsplash.com/photo-1547949003-9792a18a2601?q=80&w=800",
+        "https://images.unsplash.com/photo-1584917865442-de89df76afd3?q=80&w=800"
+      ],
+      "variants": [
+        { "id": "v5-1", "color": "Tan", "size": "OS", "stock": 15 },
+        { "id": "v5-2", "color": "Nero", "size": "OS", "stock": 22 }
+      ]
+    },
+    {
+      "id": "prod-6",
+      "name": "Raw Denim Jacket",
+      "slug": "raw-denim-jacket",
+      "sku": "JKT-DENM-06",
+      "description": "Constructed from 14oz Japanese selvedge denim. This jacket is stiff, structured, and designed to break in beautifully over time, taking on a unique character. Features copper hardware, two buttoned chest pockets, and waist adjusters.",
+      "shortDescription": "14oz Japanese selvedge denim jacket with copper hardware.",
+      "price": 5499,
+      "originalPrice": 5499,
+      "discountPercent": 0,
+      "categoryId": "men",
+      "brandId": "4",
+      "ratingsAverage": 4.4,
+      "status": "active",
+      "tags": ["denim", "jacket", "casual", "indigo", "men"],
+      "images": [
+        "https://images.unsplash.com/photo-1611536326696-b52be8ef45f6?q=80&w=800",
+        "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?q=80&w=800"
+      ],
+      "variants": [
+        { "id": "v6-1", "color": "Indigo", "size": "S", "stock": 8 },
+        { "id": "v6-2", "color": "Indigo", "size": "M", "stock": 15 },
+        { "id": "v6-3", "color": "Indigo", "size": "L", "stock": 12 },
+        { "id": "v6-4", "color": "Indigo", "size": "XL", "stock": 5 }
+      ]
+    },
+    {
+      "id": "prod-7",
+      "name": "Luxury Silk Slip Dress",
+      "slug": "luxury-silk-slip-dress",
+      "sku": "DRS-SLIP-07",
+      "description": "A classic slip dress bias-cut from premium sandwashed silk charmeuse. Featuring a delicate v-neckline, adjustable spaghetti straps, and a floor-skimming side slit. Feels incredibly soft against the skin.",
+      "shortDescription": "Bias-cut slip dress crafted from 100% sandwashed silk.",
+      "price": 6499,
+      "originalPrice": 7500,
+      "discountPercent": 13,
+      "categoryId": "women",
+      "brandId": "3",
+      "ratingsAverage": 4.8,
+      "status": "active",
+      "tags": ["dress", "silk", "evening", "summer", "chic", "wedding"],
+      "images": [
+        "https://images.unsplash.com/photo-1496747611176-843222e1e57c?q=80&w=800",
+        "https://images.unsplash.com/photo-1509631179647-0177331693ae?q=80&w=800"
+      ],
+      "variants": [
+        { "id": "v7-1", "color": "Emerald", "size": "XS", "stock": 4 },
+        { "id": "v7-2", "color": "Emerald", "size": "S", "stock": 7 },
+        { "id": "v7-3", "color": "Emerald", "size": "M", "stock": 9 },
+        { "id": "v7-4", "color": "Champagne", "size": "S", "stock": 5 },
+        { "id": "v7-5", "color": "Champagne", "size": "M", "stock": 8 },
+        { "id": "v7-6", "color": "Black", "size": "M", "stock": 10 }
+      ]
+    },
+    {
+      "id": "prod-8",
+      "name": "Chunky Merino Knit Sweater",
+      "slug": "chunky-merino-knit-sweater",
+      "sku": "SWTR-KERN-08",
+      "description": "Knitted from soft, extra-fine merino wool yarn. This heavy crewneck sweater features a classic ribbed collar, cuffs, and hem. The chunky knit pattern offers insulating warmth and an effortless, textured drape.",
+      "shortDescription": "Chunky crewneck knit sweater in 100% merino wool.",
+      "price": 3999,
+      "originalPrice": 4999,
+      "discountPercent": 20,
+      "categoryId": "men",
+      "brandId": "4",
+      "ratingsAverage": 4.6,
+      "status": "active",
+      "tags": ["sweater", "merino", "wool", "winter", "knitwear", "casual"],
+      "images": [
+        "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?q=80&w=800",
+        "https://images.unsplash.com/photo-1617137968427-85924c800a22?q=80&w=800"
+      ],
+      "variants": [
+        { "id": "v8-1", "color": "Cream", "size": "S", "stock": 5 },
+        { "id": "v8-2", "color": "Cream", "size": "M", "stock": 11 },
+        { "id": "v8-3", "color": "Cream", "size": "L", "stock": 6 },
+        { "id": "v8-4", "color": "Sage", "size": "M", "stock": 8 },
+        { "id": "v8-5", "color": "Sage", "size": "L", "stock": 7 }
+      ]
+    },
+    {
+      "id": "prod-9",
+      "name": "Classic Leather Chelsea Boot",
+      "slug": "classic-leather-chelsea-boot",
+      "sku": "SHOE-CHEL-09",
+      "description": "An elegant Chelsea boot handcrafted in Portugal from premium Italian calfskin leather. Featuring elasticated side panels, custom pull tabs, a stacked leather heel, and a durable rubber-injected sole.",
+      "shortDescription": "Handcrafted Chelsea boots in Italian calfskin leather.",
+      "price": 7999,
+      "originalPrice": 7999,
+      "discountPercent": 0,
+      "categoryId": "accessories",
+      "brandId": "1",
+      "ratingsAverage": 4.9,
+      "status": "active",
+      "tags": ["shoes", "boots", "leather", "casual", "formal", "men"],
+      "images": [
+        "https://images.unsplash.com/photo-1520639888713-7851133b1ed0?q=80&w=800",
+        "https://images.unsplash.com/photo-1611536326696-b52be8ef45f6?q=80&w=800"
+      ],
+      "variants": [
+        { "id": "v9-1", "color": "Espresso", "size": "8", "stock": 4 },
+        { "id": "v9-2", "color": "Espresso", "size": "9", "stock": 8 },
+        { "id": "v9-3", "color": "Espresso", "size": "10", "stock": 7 },
+        { "id": "v9-4", "color": "Black", "size": "9", "stock": 5 },
+        { "id": "v9-5", "color": "Black", "size": "10", "stock": 4 }
+      ]
+    }
+  ],
+  "coupons": [
+    {
+      "id": "c-1",
+      "code": "SUMMER40",
+      "discountType": "percent",
+      "discountValue": 40,
+      "minOrderValue": 2000,
+      "maxDiscountValue": 2500,
+      "expiryDate": "2026-12-31",
+      "active": true
+    },
+    {
+      "id": "c-2",
+      "code": "WELCOME10",
+      "discountType": "percent",
+      "discountValue": 10,
+      "minOrderValue": 1000,
+      "maxDiscountValue": 1000,
+      "expiryDate": "2026-12-31",
+      "active": true
+    },
+    {
+      "id": "c-3",
+      "code": "FREESHIP",
+      "discountType": "fixed",
+      "discountValue": 150,
+      "minOrderValue": 1500,
+      "maxDiscountValue": 150,
+      "expiryDate": "2026-12-31",
+      "active": true
+    }
+  ],
+  "users": [
+    {
+      "id": "usr-admin",
+      "email": "admin@nova.com",
+      "passwordHash": "admin123",
+      "name": "Nova Admin",
+      "role": "admin",
+      "createdAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "usr-client",
+      "email": "client@nova.com",
+      "passwordHash": "client123",
+      "name": "Prabhu Client",
+      "role": "customer",
+      "createdAt": "2026-02-15T12:00:00.000Z"
+    }
+  ],
+  "orders": [
+    {
+      "id": "ord-2001",
+      "userId": "usr-client",
+      "contactEmail": "client@nova.com",
+      "shippingAddress": {
+        "name": "Prabhu Client",
+        "address": "123 Fashion Street, Sector 5",
+        "city": "Mumbai",
+        "state": "Maharashtra",
+        "postalCode": "400001",
+        "country": "India",
+        "phone": "+91 9876543210"
+      },
+      "billingAddress": {
+        "name": "Prabhu Client",
+        "address": "123 Fashion Street, Sector 5",
+        "city": "Mumbai",
+        "state": "Maharashtra",
+        "postalCode": "400001",
+        "country": "India",
+        "phone": "+91 9876543210"
+      },
+      "shippingMethod": "Standard Delivery",
+      "subtotal": 14999,
+      "discountAmount": 0,
+      "tax": 1800,
+      "shippingCost": 0,
+      "total": 16799,
+      "paymentMethod": "Credit Card",
+      "paymentStatus": "paid",
+      "orderStatus": "Processing",
+      "couponCode": null,
+      "createdAt": "2026-08-15T14:30:00.000Z",
+      "items": [
+        {
+          "id": "item-1",
+          "productId": "prod-1",
+          "productName": "Oversized Cashmere Coat",
+          "variantId": "v1-2",
+          "quantity": 1,
+          "price": 14999,
+          "color": "Camel",
+          "size": "M"
+        }
+      ]
+    }
+  ],
+  "reviews": [
+    {
+      "id": "rev-1",
+      "productId": "prod-1",
+      "userId": "usr-client",
+      "userName": "Prabhu Client",
+      "rating": 5,
+      "title": "Absolutely stunning piece!",
+      "comment": "This cashmere coat is extremely soft and drapes perfectly. Heavyweight and perfect for winter travel. Received so many compliments already!",
+      "images": [],
+      "status": "approved",
+      "createdAt": "2026-08-15T15:00:00.000Z"
+    },
+    {
+      "id": "rev-2",
+      "productId": "prod-2",
+      "userId": "usr-client",
+      "userName": "Prabhu Client",
+      "rating": 4,
+      "title": "Super sleek and high-end texture",
+      "comment": "The silk texture feels very luxurious. Fits nicely, though sleeves were slightly longer than expected. Overall highly recommend.",
+      "images": [],
+      "status": "approved",
+      "createdAt": "2026-08-14T09:20:00.000Z"
+    }
+  ],
+  "wishlists": [
+    {
+      "userId": "usr-client",
+      "productIds": ["prod-2", "prod-7"]
+    }
+  ]
+}

@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Narisetty Ravi Sankar Balaji | Software Engineer Portfolio</title>
+    
+    <!-- Meta tags for SEO & sharing -->
+    <meta name="description" content="Portfolio of Narisetty Ravi Sankar Balaji - B.Tech Information Technology Student at Vignan University. Aspiring Software Engineer passionate about programming, web technologies, and AI.">
+    <meta name="keywords" content="Narisetty Ravi Sankar Balaji, Portfolio, Software Engineer, B.Tech IT, Vignan University, Web Developer, Python, Java, C, Data Structures, SQL">
+    <meta name="author" content="Narisetty Ravi Sankar Balaji">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Outfit:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome 6 Icons CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Ambient Glowing Background Elements -->
+    <div class="ambient-glow glow-top-left" aria-hidden="true"></div>
+    <div class="ambient-glow glow-center-right" aria-hidden="true"></div>
+    <div class="ambient-glow glow-bottom-left" aria-hidden="true"></div>
+    <div class="grid-overlay" aria-hidden="true"></div>
+
+    <!-- 2. NAVIGATION BAR -->
+    <header class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo" aria-label="Narisetty Ravi Sankar Balaji">
+                <span class="logo-bracket">&lt;</span><span class="logo-name">Ravi Sankar</span><span class="logo-bracket"> /&gt;</span>
+                <span class="status-pulse" title="Available for opportunities"></span>
+            </a>
+
+            <nav class="nav-links" id="navLinks" aria-label="Main Navigation">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#education" class="nav-link">Education</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#career-goal" class="nav-link">Career Goal</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+
+            <div class="nav-actions">
+                <a href="#contact" class="btn btn-sm btn-outline">
+                    <span>Let's Talk</span>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+
+                <!-- Mobile Hamburger Menu Button -->
+                <button class="hamburger-btn" id="hamburgerBtn" aria-label="Toggle navigation menu" aria-expanded="false">
+                    <span class="bar bar-1"></span>
+                    <span class="bar bar-2"></span>
+                    <span class="bar bar-3"></span>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile Menu Drawer -->
+        <div class="mobile-drawer" id="mobileDrawer">
+            <div class="drawer-content">
+                <nav class="drawer-nav">
+                    <a href="#home" class="drawer-link">
+                        <i class="fa-solid fa-house"></i>
+                        <span>Home</span>
+                    </a>
+                    <a href="#about" class="drawer-link">
+                        <i class="fa-solid fa-user"></i>
+                        <span>About</span>
+                    </a>
+                    <a href="#education" class="drawer-link">
+                        <i class="fa-solid fa-graduation-cap"></i>
+                        <span>Education</span>
+                    </a>
+                    <a href="#skills" class="drawer-link">
+                        <i class="fa-solid fa-code"></i>
+                        <span>Skills</span>
+                    </a>
+                    <a href="#career-goal" class="drawer-link">
+                        <i class="fa-solid fa-bullseye"></i>
+                        <span>Career Goal</span>
+                    </a>
+                    <a href="#contact" class="drawer-link">
+                        <i class="fa-solid fa-paper-plane"></i>
+                        <span>Contact</span>
+                    </a>
+                </nav>
+                <div class="drawer-footer">
+                    <p class="drawer-email">narisettyravisankarbalaji@gmail.com</p>
+                    <a href="mailto:narisettyravisankarbalaji@gmail.com" class="btn btn-primary btn-full">
+                        <i class="fa-regular fa-envelope"></i> Send Email
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main id="mainContent">
+
+        <!-- 1. HERO SECTION -->
+        <section class="hero-section" id="home">
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <div class="hero-badge">
+                        <span class="status-indicator"></span>
+                        <span class="badge-text">2nd Year B.Tech IT &bull; Vignan University</span>
+                    </div>
+
+                    <h1 class="hero-title">
+                        Hi, I'm <br>
+                        <span class="gradient-text">Narisetty Ravi Sankar Balaji</span>
+                    </h1>
+
+                    <h2 class="hero-subtitle">
+                        B.Tech Information Technology Student
+                    </h2>
+
+                    <div class="hero-typing-wrapper">
+                        <span class="typing-prefix">I am a </span>
+                        <span class="typing-text" id="typingText"></span>
+                        <span class="cursor-blink">|</span>
+                    </div>
+
+                    <p class="hero-description">
+                        Passionate technologist dedicated to writing clean code, solving algorithmic challenges, and engineering modern software solutions that create positive real-world impact.
+                    </p>
+
+                    <div class="hero-actions">
+                        <a href="#about" class="btn btn-primary">
+                            <span>Explore My Portfolio</span>
+                            <i class="fa-solid fa-arrow-down"></i>
+                        </a>
+                        <a href="#contact" class="btn btn-glass">
+                            <span>Contact Me</span>
+                            <i class="fa-solid fa-envelope"></i>
+                        </a>
+                    </div>
+
+                    <!-- Quick Metrics Strip -->
+                    <div class="hero-metrics">
+                        <div class="metric-item">
+                            <span class="metric-value">2nd</span>
+                            <span class="metric-label">Year B.Tech</span>
+                        </div>
+                        <div class="metric-divider"></div>
+                        <div class="metric-item">
+                            <span class="metric-value">8+</span>
+                            <span class="metric-label">Core Tech Skills</span>
+                        </div>
+                        <div class="metric-divider"></div>
+                        <div class="metric-item">
+                            <span class="metric-value">100%</span>
+                            <span class="metric-label">Dedicated Focus</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hero-visual">
+                    <div class="avatar-glow-ring">
+                        <div class="ring-gradient"></div>
+                        <div class="ring-particles"></div>
+                        <div class="profile-img-container">
+                            <img src="profile.jpg" alt="Narisetty Ravi Sankar Balaji - Software Engineer" class="hero-profile-img" id="heroProfileImg">
+                            <div class="img-overlay-glow"></div>
+                        </div>
+                        
+                        <!-- Floating Tech Tags -->
+                        <div class="floating-badge badge-top-right">
+                            <i class="fa-solid fa-terminal"></i>
+                            <span>Software Engineer</span>
+                        </div>
+                        <div class="floating-badge badge-bottom-left">
+                            <i class="fa-solid fa-microchip"></i>
+                            <span>IT @ Vignan</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="scroll-prompt" aria-hidden="true">
+                <a href="#about" class="scroll-mouse" aria-label="Scroll to About section">
+                    <div class="mouse-wheel"></div>
+                </a>
+                <span class="scroll-text">SCROLL TO DISCOVER</span>
+            </div>
+        </section>
+
+        <!-- 3. ABOUT SECTION -->
+        <section class="section about-section" id="about">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag"><i class="fa-solid fa-user-astronaut"></i> Biography</span>
+                    <h2 class="section-title">About <span class="gradient-text">Me</span></h2>
+                    <p class="section-subtitle">A glimpse into my background, academic journey, and passion for technology.</p>
+                </div>
+
+                <div class="about-grid">
+                    <!-- Left Column: Visual Profile Card -->
+                    <div class="about-visual-card glass-card">
+                        <div class="about-photo-wrapper">
+                            <img src="profile.jpg" alt="Narisetty Ravi Sankar Balaji" class="about-photo">
+                            <div class="about-photo-overlay"></div>
+                            <div class="about-card-badge">
+                                <i class="fa-solid fa-graduation-cap"></i>
+                                <span>Vignan University</span>
+                            </div>
+                        </div>
+                        <div class="about-card-info">
+                            <h3 class="about-card-name">Narisetty Ravi Sankar Balaji</h3>
+                            <p class="about-card-role">B.Tech Information Technology Student</p>
+                            
+                            <div class="about-status-strip">
+                                <span class="status-indicator"></span>
+                                <span>Open to Internships &amp; Tech Opportunities</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right Column: Content & Highlight Cards -->
+                    <div class="about-content">
+                        <div class="glass-card about-text-card">
+                            <div class="terminal-header">
+                                <span class="dot red"></span>
+                                <span class="dot yellow"></span>
+                                <span class="dot green"></span>
+                                <span class="terminal-title">about_me.txt</span>
+                            </div>
+                            <p class="about-paragraph">
+                                I am a passionate B.Tech Information Technology student currently pursuing my 2nd year. I am interested in programming, web technologies, Artificial Intelligence, and emerging technologies. I enjoy learning new technical skills, working on projects, and participating in technology-related activities. I am continuously improving my knowledge in programming and problem-solving while gaining practical experience through academic projects and college activities. My goal is to develop strong technical skills and build innovative solutions that can create a positive impact.
+                            </p>
+                        </div>
+
+                        <!-- 3 Feature Cards -->
+                        <div class="about-features-grid">
+                            <div class="feature-card glass-card">
+                                <div class="feature-icon-wrapper">
+                                    <i class="fa-solid fa-user-graduate"></i>
+                                </div>
+                                <div class="feature-content">
+                                    <h4>B.Tech Student</h4>
+                                    <p>Pursuing 2nd Year at Vignan University with consistent dedication.</p>
+                                </div>
+                            </div>
+
+                            <div class="feature-card glass-card">
+                                <div class="feature-icon-wrapper">
+                                    <i class="fa-solid fa-laptop-code"></i>
+                                </div>
+                                <div class="feature-content">
+                                    <h4>Information Technology</h4>
+                                    <p>Deep diving into core systems, networking, databases, and algorithms.</p>
+                                </div>
+                            </div>
+
+                            <div class="feature-card glass-card">
+                                <div class="feature-icon-wrapper">
+                                    <i class="fa-solid fa-rocket"></i>
+                                </div>
+                                <div class="feature-content">
+                                    <h4>Future Software Engineer</h4>
+                                    <p>Focused on writing robust, scalable code and continuous growth.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. EDUCATION SECTION -->
+        <section class="section education-section" id="education">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag"><i class="fa-solid fa-graduation-cap"></i> Academic Pathway</span>
+                    <h2 class="section-title">My <span class="gradient-text">Education</span></h2>
+                    <p class="section-subtitle">My academic foundation and educational milestones.</p>
+                </div>
+
+                <div class="timeline-container">
+                    <div class="timeline-line"></div>
+
+                    <!-- Item 1: B.Tech -->
+                    <div class="timeline-item">
+                        <div class="timeline-marker">
+                            <i class="fa-solid fa-building-columns"></i>
+                        </div>
+                        <div class="timeline-content glass-card">
+                            <div class="timeline-badge-row">
+                                <span class="timeline-degree">B.Tech</span>
+                                <span class="timeline-status-badge">Current &bull; 2nd Year</span>
+                            </div>
+                            <h3 class="timeline-institution">Vignan University</h3>
+                            <div class="timeline-meta">
+                                <span class="timeline-field"><i class="fa-solid fa-code-branch"></i> Branch: Information Technology</span>
+                                <span class="timeline-year"><i class="fa-regular fa-calendar-check"></i> Current Year: 2nd Year</span>
+                            </div>
+                            <p class="timeline-desc">
+                                Actively building strong foundations in computer science principles, data structures, algorithms, object-oriented programming, and modern web application development.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Item 2: Intermediate -->
+                    <div class="timeline-item">
+                        <div class="timeline-marker">
+                            <i class="fa-solid fa-book-open"></i>
+                        </div>
+                        <div class="timeline-content glass-card">
+                            <div class="timeline-badge-row">
+                                <span class="timeline-degree">Intermediate</span>
+                                <span class="timeline-score-badge"><i class="fa-solid fa-award"></i> Marks: 670</span>
+                            </div>
+                            <h3 class="timeline-institution">Mahitha Jr. Inter College</h3>
+                            <div class="timeline-meta">
+                                <span class="timeline-year"><i class="fa-regular fa-calendar"></i> Year: 2025</span>
+                                <span class="timeline-marks"><i class="fa-solid fa-chart-line"></i> Score: 670 Marks</span>
+                            </div>
+                            <p class="timeline-desc">
+                                Completed higher secondary education focusing on mathematics, physics, and analytical problem solving, forming the groundwork for engineering studies.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Item 3: SSC -->
+                    <div class="timeline-item">
+                        <div class="timeline-marker">
+                            <i class="fa-solid fa-school"></i>
+                        </div>
+                        <div class="timeline-content glass-card">
+                            <div class="timeline-badge-row">
+                                <span class="timeline-degree">SSC</span>
+                                <span class="timeline-score-badge"><i class="fa-solid fa-award"></i> Marks: 410</span>
+                            </div>
+                            <h3 class="timeline-institution">Sri Chaitanya</h3>
+                            <div class="timeline-meta">
+                                <span class="timeline-year"><i class="fa-regular fa-calendar"></i> Year: 2023</span>
+                                <span class="timeline-marks"><i class="fa-solid fa-chart-line"></i> Score: 410 Marks</span>
+                            </div>
+                            <p class="timeline-desc">
+                                Completed Secondary School Certificate (SSC) with strong academic performance and early curiosity for computational science.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 5. SKILLS SECTION -->
+        <section class="section skills-section" id="skills">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag"><i class="fa-solid fa-laptop-code"></i> Technical Stack</span>
+                    <h2 class="section-title">Technical <span class="gradient-text">Skills</span></h2>
+                    <p class="section-subtitle">Programming languages, tools, and computer science concepts I work with.</p>
+                </div>
+
+                <div class="skills-grid">
+                    <!-- Skill 1: C -->
+                    <div class="skill-card glass-card">
+                        <div class="skill-icon-box">
+                            <span class="skill-code-tag">C</span>
+                        </div>
+                        <div class="skill-info">
+                            <h3 class="skill-name">C</h3>
+                            <span class="skill-category">Core Language</span>
+                            <p class="skill-desc">Foundational structured programming, pointers, memory allocation, and hardware-level concepts.</p>
+                        </div>
+                    </div>
+
+                    <!-- Skill 2: Python -->
+                    <div class="skill-card glass-card">
+                        <div class="skill-icon-box">
+                            <i class="fa-brands fa-python"></i>
+                        </div>
+                        <div class="skill-info">
+                            <h3 class="skill-name">Python</h3>
+                            <span class="skill-category">Scripting &amp; AI</span>
+                            <p class="skill-desc">Dynamic scripting, data analysis fundamentals, automation, and AI/machine learning exploration.</p>
+                        </div>
+                    </div>
+
+                    <!-- Skill 3: Java -->
+                    <div class="skill-card glass-card">
+                        <div class="skill-icon-box">
+                            <i class="fa-brands fa-java"></i>
+                        </div>
+                        <div class="skill-info">
+                            <h3 class="skill-name">Java</h3>
+                            <span class="skill-category">Object-Oriented</span>
+                            <p class="skill-desc">OOP architecture, inheritance, polymorphism, design patterns, and enterprise-grade backend concepts.</p>
+                        </div>
+                    </div>
+
+                    <!-- Skill 4: HTML -->
+                    <div class="skill-card glass-card">
+                        <div class="skill-icon-box">
+                            <i class="fa-brands fa-html5"></i>
+                        </div>
+                        <div class="skill-info">
+                            <h3 class="skill-name">HTML</h3>
+                            <span class="skill-category">Web Structure</span>
+                            <p class="skill-desc">Semantic markup, responsive accessibility, SEO optimization, and modern DOM elements.</p>
+                        </div>
+                    </div>
+
+                    <!-- Skill 5: CSS -->
+                    <div class="skill-card glass-card">
+                        <div class="skill-icon-box">
+                            <i class="fa-brands fa-css3-alt"></i>
+                        </div>
+                        <div class="skill-info">
+                            <h3 class="skill-name">CSS</h3>
+                            <span class="skill-category">Styling &amp; UX</span>
+                            <p class="skill-desc">Modern Flexbox, CSS Grid layouts, glassmorphism, responsive media queries, and keyframe animations.</p>
+                        </div>
+                    </div>
+
+                    <!-- Skill 6: JavaScript -->
+                    <div class="skill-card glass-card">
+                        <div class="skill-icon-box">
+                            <i class="fa-brands fa-js"></i>
+                        </div>
+                        <div class="skill-info">
+                            <h3 class="skill-name">JavaScript</h3>
+                            <span class="skill-category">Interactive Web</span>
+                            <p class="skill-desc">ES6+ syntax, asynchronous programming, event-driven interfaces, and DOM manipulation.</p>
+                        </div>
+                    </div>
+
+                    <!-- Skill 7: Data Structures -->
+                    <div class="skill-card glass-card">
+                        <div class="skill-icon-box">
+                            <i class="fa-solid fa-diagram-project"></i>
+                        </div>
+                        <div class="skill-info">
+                            <h3 class="skill-name">Data Structures</h3>
+                            <span class="skill-category">Core Computer Science</span>
+                            <p class="skill-desc">Arrays, linked lists, stacks, queues, trees, graphs, sorting, searching, and time complexity optimization.</p>
+                        </div>
+                    </div>
+
+                    <!-- Skill 8: SQL -->
+                    <div class="skill-card glass-card">
+                        <div class="skill-icon-box">
+                            <i class="fa-solid fa-database"></i>
+                        </div>
+                        <div class="skill-info">
+                            <h3 class="skill-name">SQL</h3>
+                            <span class="skill-category">Databases</span>
+                            <p class="skill-desc">Relational database design, querying, joins, indexing, data normalization, and schema management.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 6. CAREER GOAL SECTION -->
+        <section class="section career-section" id="career-goal">
+            <div class="container">
+                <div class="career-wrapper glass-card">
+                    <div class="career-ambient-glow" aria-hidden="true"></div>
+                    
+                    <div class="career-header-block">
+                        <span class="career-pill">
+                            <i class="fa-solid fa-compass"></i> Vision &amp; Ambition
+                        </span>
+                        <h2 class="career-headline">My Career Goal</h2>
+                        <div class="career-target">
+                            <span class="target-label">Target Role:</span>
+                            <span class="target-title gradient-text">Software Engineer</span>
+                        </div>
+                    </div>
+
+                    <div class="career-body-grid">
+                        <div class="career-text-column">
+                            <p class="career-description">
+                                My primary ambition is to forge a distinguished career as a <strong>Software Engineer</strong>, building resilient, scalable, and impactful software applications. I am committed to mastering deep algorithmic problem solving, modern software design patterns, and engineering systems that handle real-world challenges seamlessly.
+                            </p>
+                            <p class="career-subdescription">
+                                By continuously bridging academic theory with practical application, I aim to contribute to high-performance engineering teams, leverage Artificial Intelligence, and develop innovative digital products that make a positive difference in people's everyday lives.
+                            </p>
+
+                            <div class="career-cta-row">
+                                <a href="#contact" class="btn btn-primary">
+                                    <span>Connect with Me</span>
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </a>
+                                <a href="#skills" class="btn btn-glass">
+                                    <span>View My Tech Skills</span>
+                                    <i class="fa-solid fa-code"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="career-cards-column">
+                            <div class="career-pillar glass-subcard">
+                                <div class="pillar-icon"><i class="fa-solid fa-code"></i></div>
+                                <div class="pillar-info">
+                                    <h4>High-Quality Code</h4>
+                                    <p>Writing clean, maintainable, modular, and well-documented software solutions.</p>
+                                </div>
+                            </div>
+
+                            <div class="career-pillar glass-subcard">
+                                <div class="pillar-icon"><i class="fa-solid fa-brain"></i></div>
+                                <div class="pillar-info">
+                                    <h4>Algorithmic Excellence</h4>
+                                    <p>Continuous practice in data structures, time complexity, and robust problem solving.</p>
+                                </div>
+                            </div>
+
+                            <div class="career-pillar glass-subcard">
+                                <div class="pillar-icon"><i class="fa-solid fa-network-wired"></i></div>
+                                <div class="pillar-info">
+                                    <h4>Innovative Systems</h4>
+                                    <p>Embracing AI, web technologies, and modern architectures to create positive impact.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 7. CONTACT SECTION -->
+        <section class="section contact-section" id="contact">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag"><i class="fa-regular fa-paper-plane"></i> Get In Touch</span>
+                    <h2 class="section-title">Contact <span class="gradient-text">Me</span></h2>
+                    <p class="section-subtitle">Interested in collaborating, internship opportunities, or discussing tech? Reach out anytime!</p>
+                </div>
+
+                <div class="contact-grid">
+                    <!-- Left: Contact Details Card -->
+                    <div class="contact-info-card glass-card">
+                        <div class="contact-card-header">
+                            <h3 class="contact-card-title">Let's Connect &amp; Collaborate</h3>
+                            <p class="contact-card-text">
+                                Feel free to reach out directly via email for academic inquiries, projects, or internship discussions.
+                            </p>
+                        </div>
+
+                        <div class="contact-channels">
+                            <!-- Email Item -->
+                            <div class="channel-item">
+                                <div class="channel-icon">
+                                    <i class="fa-solid fa-envelope"></i>
+                                </div>
+                                <div class="channel-details">
+                                    <span class="channel-label">Direct Email</span>
+                                    <a href="mailto:narisettyravisankarbalaji@gmail.com" class="channel-value" id="emailDisplay">
+                                        narisettyravisankarbalaji@gmail.com
+                                    </a>
+                                </div>
+                            </div>
+
+                            <!-- Education & Location Item -->
+                            <div class="channel-item">
+                                <div class="channel-icon">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                </div>
+                                <div class="channel-details">
+                                    <span class="channel-label">Institution &amp; Location</span>
+                                    <span class="channel-value">Vignan University, India</span>
+                                </div>
+                            </div>
+
+                            <!-- Status Item -->
+                            <div class="channel-item">
+                                <div class="channel-icon">
+                                    <i class="fa-solid fa-clock"></i>
+                                </div>
+                                <div class="channel-details">
+                                    <span class="channel-label">Availability</span>
+                                    <span class="channel-value status-available">
+                                        <span class="status-indicator"></span> Open for Internships &amp; Projects
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Action Buttons -->
+                        <div class="contact-actions-wrap">
+                            <a href="mailto:narisettyravisankarbalaji@gmail.com" class="btn btn-primary btn-full">
+                                <i class="fa-solid fa-paper-plane"></i>
+                                <span>Send Email</span>
+                            </a>
+                            <button type="button" class="btn btn-glass btn-full" id="copyEmailBtn" data-email="narisettyravisankarbalaji@gmail.com">
+                                <i class="fa-regular fa-copy"></i>
+                                <span id="copyBtnText">Copy Email Address</span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Right: Direct Message Composer -->
+                    <div class="contact-form-card glass-card">
+                        <div class="terminal-header">
+                            <span class="dot red"></span>
+                            <span class="dot yellow"></span>
+                            <span class="dot green"></span>
+                            <span class="terminal-title">quick_message.sh</span>
+                        </div>
+                        <form id="contactForm" class="contact-form" onsubmit="handleFormSubmit(event)">
+                            <div class="form-group">
+                                <label for="senderName" class="form-label">Your Name</label>
+                                <div class="input-with-icon">
+                                    <i class="fa-regular fa-user"></i>
+                                    <input type="text" id="senderName" class="form-input" placeholder="e.g. John Doe" required>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="senderEmail" class="form-label">Your Email</label>
+                                <div class="input-with-icon">
+                                    <i class="fa-regular fa-envelope"></i>
+                                    <input type="email" id="senderEmail" class="form-input" placeholder="e.g. john@example.com" required>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="senderSubject" class="form-label">Subject</label>
+                                <div class="input-with-icon">
+                                    <i class="fa-regular fa-comment-dots"></i>
+                                    <input type="text" id="senderSubject" class="form-input" placeholder="e.g. Internship Opportunity / Collaboration" required>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="senderMessage" class="form-label">Message</label>
+                                <textarea id="senderMessage" class="form-textarea" rows="4" placeholder="Write your message here..." required></textarea>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary btn-full" id="submitMessageBtn">
+                                <span>Compose &amp; Send to Balaji</span>
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- 8. FOOTER -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <a href="#home" class="footer-logo">
+                        <span class="logo-bracket">&lt;</span><span>Narisetty Ravi Sankar Balaji</span><span class="logo-bracket"> /&gt;</span>
+                    </a>
+                    <p class="footer-title">B.Tech Information Technology Student</p>
+                    <p class="footer-college"><i class="fa-solid fa-building-columns"></i> Vignan University</p>
+                </div>
+
+                <div class="footer-nav">
+                    <a href="#home" class="footer-link">Home</a>
+                    <a href="#about" class="footer-link">About</a>
+                    <a href="#education" class="footer-link">Education</a>
+                    <a href="#skills" class="footer-link">Skills</a>
+                    <a href="#career-goal" class="footer-link">Career Goal</a>
+                    <a href="#contact" class="footer-link">Contact</a>
+                </div>
+            </div>
+
+            <div class="footer-divider"></div>
+
+            <div class="footer-bottom">
+                <p class="footer-copyright">
+                    &copy; 2026 Narisetty Ravi Sankar Balaji. All rights reserved.
+                </p>
+                <p class="footer-status">
+                    B.Tech Information Technology Student &bull; Aspiring Software Engineer
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTopBtn" aria-label="Back to top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <!-- Toast Notification for Copy Action -->
+    <div class="toast-notification" id="toastNotification" role="alert" aria-live="assertive">
+        <i class="fa-solid fa-circle-check"></i>
+        <span id="toastMessage">Email copied to clipboard!</span>
+    </div>
+
+    <!-- Custom JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>

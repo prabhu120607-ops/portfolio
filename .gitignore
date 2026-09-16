@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Build outputs & caches
+.next/
+.dist/
+out/
+build/
+dist/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Environment & IDE
+.env*
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Backup folder
+old_portfolio_backup/
